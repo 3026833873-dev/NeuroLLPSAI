@@ -2332,12 +2332,12 @@
   },
   "files": {
     "app.R": {
-      "checksum": "2c2266cda31a12e669698abd4551e6b2"
+      "checksum": "6d6d936431706219af3463412abc22c8"
     },
-    "model/rsf_model.rds": {
+    "rsf_model.rds": {
       "checksum": "6031e171e71c7a0aa0a8e9a306520338"
     },
-    "model/seven_gene_model.rds": {
+    "seven_gene_model.rds": {
       "checksum": "c96af5d0749b783b59637c6ee41ef4d5"
     }
   },

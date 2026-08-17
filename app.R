@@ -8,8 +8,8 @@ library(shiny)
 library(randomForestSRC)
 
 # 云端使用相对路径，不依赖任何电脑的C盘
-paper_model_file <- file.path("model", "seven_gene_model.rds")
-rsf_model_file <- file.path("model", "rsf_model.rds")
+paper_model_file <- "seven_gene_model.rds"
+rsf_model_file <- "rsf_model.rds"
 
 if (!file.exists(paper_model_file)) {
   stop("找不到 model/seven_gene_model.rds")
